@@ -17,7 +17,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 # See https://docs.djangoproject.com/en/1.7/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'zvu45&b7$l%2y@sq8l9agh669s(odr*g*&*03i@x-)=-7mk*)@'
+SECRET_KEY = '+94xi*-g+f6b#rv^5g%)&zc^_ia6s1vb&!=csg)y3-7m4^&fw='
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -36,7 +36,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    #'headers',
+    'headers',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -60,7 +60,7 @@ WSGI_APPLICATION = 'project_test.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'NAME': os.path.join(BASE_DIR, 'our_db.sqlite3'),
     }
 }
 
